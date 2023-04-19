@@ -33,7 +33,12 @@ public class ListNumbers {
         // 2.4 На вход получаем некий JSON. Проверить, что поле "isPopular" равно false
         JSONObject jsonObject = new JSONObject("{\"name\":\"product\", \"isPopular\":false}");
         boolean isPopular = jsonObject.getBoolean("isPopular");
-        System.out.println(isPopular);
+        if(!isPopular){
+            System.out.println("поле isPopular = " + isPopular);
+        }else {
+            System.out.println("поле isPopular = не соответствует требованию "  );
+        }
+
 
         // 2.5 Найти сумму нечетных чисел в коллекции.
         int sumOfOddNumbers = numbers.stream()
