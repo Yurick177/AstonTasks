@@ -33,10 +33,10 @@ public class ListNumbers {
         // 2.4 На вход получаем некий JSON. Проверить, что поле "isPopular" равно false
         JSONObject jsonObject = new JSONObject("{\"name\":\"product\", \"isPopular\":false}");
         boolean isPopular = jsonObject.getBoolean("isPopular");
-        if(!isPopular){
+        if (!isPopular) {
             System.out.println("поле isPopular = " + isPopular);
-        }else {
-            System.out.println("поле isPopular = не соответствует требованию "  );
+        } else {
+            System.out.println("поле isPopular = не соответствует требованию ");
         }
 
 

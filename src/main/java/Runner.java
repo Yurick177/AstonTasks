@@ -31,7 +31,9 @@ public class Runner {
         PrintLine3Count.PrintLine3CountAndSeparator(text6, "-----------------");
         String text7 = "Аргентина манит негра";
         Palindrome.PalindromeLine(text7);
-        Anagram.anagramWords("обезьянство", "место", "мечеть");
+        Anagram.anagramWords("обезьянство", "светобоязнь");
+        Anagram.anagramWords("кропание", "пионерка");
+        Anagram.anagramWords("нитратомер", "терминатор");
         NumbersFibonacci.fibonacci();
         Factorial.getFactorialNumber(4);
         OperationNumber.abracadabraWithNumber(100);
